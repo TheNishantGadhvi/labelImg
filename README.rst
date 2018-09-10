@@ -56,7 +56,7 @@ Python 3 + Qt5
 
 .. code::
 
-    sudo apt-get install pyqt5-dev-tools
+    sudo apt install python3-lxml pyqt5-dev-tools cmake
     sudo pip3 install lxml
     make qt5py3
     python3 labelImg.py
