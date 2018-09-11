@@ -48,6 +48,7 @@ Python 2 + Qt4
 
     sudo apt-get install pyqt4-dev-tools
     sudo pip install lxml
+    cd /path/to/folder/labelImg
     make qt4py2
     python labelImg.py
     python labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
@@ -58,6 +59,7 @@ Python 3 + Qt5
 
     sudo apt install python3-lxml pyqt5-dev-tools cmake
     sudo pip3 install lxml
+    cd /path/to/folder/labelImg
     make qt5py3
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
@@ -70,6 +72,7 @@ Python 2 + Qt4
 
     brew install qt qt4
     brew install libxml2
+    cd /path/to/folder/labelImg
     make qt4py2
     python labelImg.py
     python  labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
@@ -80,6 +83,7 @@ Python 3 + Qt5 (Works on macOS High Sierra)
 
     brew install qt  # will install qt-5.x.x
     brew install libxml2
+    cd /path/to/folder/labelImg
     make qt5py3
     python labelImg.py
     python  labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
@@ -98,6 +102,7 @@ in your /Applications folder. You can consider this script: build-tools/build-fo
     pipenv shell
     pip install py2app
     pip install PyQt5 lxml
+    cd /path/to/folder/labelImg
     make qt5py3
     rm -rf build dist
     python setup.py py2app -A
